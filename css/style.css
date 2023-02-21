@@ -50,11 +50,11 @@ a {
 }
 
 .logo {
-    width: 160px;
+    width: 185px;
 }
 
 .navbar .nav-link {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -240,4 +240,20 @@ form .form-control {
 
 .footer-bottom {
     background-color: #242933;
+}
+
+@media(max-width:768px) {
+    .hero-btn {
+        margin-top: 1.5rem;
+    }
+    .hero-btn2 {
+        margin-right: 7px;
+    }
+    .copy {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .social-icons {
+        margin-bottom: 1rem;
+    }
 }
